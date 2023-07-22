@@ -1,0 +1,101 @@
+{
+  "seller": [
+    {
+      "name": "shuchi",
+      "email": "test123@test.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "rinky",
+      "email": "rinky@test.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "shekhar",
+      "email": "shekhar@abc.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "Peter",
+      "email": "peter@test.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "name": "neha",
+      "email": "neha@abc.com",
+      "password": "abc123",
+      "id": 5
+    },
+    {
+      "name": "Anjali",
+      "email": "anjali@abc.com",
+      "password": "abc123",
+      "id": 6
+    },
+    {
+      "name": "nathan",
+      "email": "nathan@xyz.com",
+      "password": "abc123",
+      "id": 7
+    },
+    {
+      "name": "shuchi",
+      "email": "test123@test.com",
+      "password": "abc123",
+      "id": 8
+    },
+    {
+      "email": "test123@test.com",
+      "password": "abc123",
+      "id": 9
+    },
+    {
+      "name": "Ayush",
+      "email": "ayush@test.com",
+      "password": "abc123",
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "name": "Kiddie Castle Portable 8.5 inch LCD Re-Writing Paperless Electronic Digital Notepad Board  (Black)",
+      "price": 173,
+      "color": "black",
+      "category": "Baby Toys",
+      "description": "Sales Package 1 Toy LCD Tab",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kc6jyq80/learning-toy/n/4/p/lcd-writing-tablet-10-global-carrat-original-imaftd4tpfwsxrfh.jpeg?q=70",
+      "id": 1
+    },
+    {
+      "name": "Tedstree 3 feet pink teddy bear - 90 cm  (Pink)",
+      "price": "100",
+      "color": "Green",
+      "category": "Baby Toys",
+      "description": "\nSoft and Cuddly filling, Huggable and loveable for someone special, Teach your loved one the act of hugging with the help of these teddies. Super soft plush materials for huggable loveable joy and keeps kids playful for long hours. Gift this soft, smooth and cuddly teddy as a great gift to your loved one. Great for all kids (and adults) who love to hold, hug, cuddle and treasure. Made out of non-toxic polyester and fur fabrics of good quality. Excellent Poly-staple & conjugate filling fiber used Gift this soft, smooth and cuddly teddy as a great gift to your loved one. Great for all kids (and adults) who love to hold, hug, cuddle and treasure Made out of non-toxic polyester and fur fabrics of good quality.",
+      "image": "https://rukminim2.flixcart.com/image/416/416/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg?q=70",
+      "id": 2
+    },
+    {
+      "name": "BARBIE Brand Entry Doll 1",
+      "price": "400",
+      "color": "Multicolor",
+      "category": "Toy",
+      "description": "Made of Plastic Age: 3+ Years Width: 4 cm",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/doll-doll-house/v/g/h/brand-entry-doll-1-barbie-original-imagk4h5ghgkza2k.jpeg?q=70",
+      "id": 3
+    },
+    {
+      "name": "PHILIPS BT3101/15 Trimmer 45 min Runtime 10 Length Settings",
+      "price": "1,345",
+      "color": "Black, White",
+      "category": "Health & Personal Care Appliances",
+      "description": "Blade Material: Stainless Steel",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kuof5ow0/trimmer/7/z/f/0-5-10-mm-bt3101-15-stainless-steel-cordless-philips-original-imag7r4r7ztgnuyk.jpeg?q=70",
+      "id": 6
+    }
+  ]
+}

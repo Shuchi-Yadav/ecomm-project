@@ -1,0 +1,45 @@
+<div class="signup-wrapper mx-auto">
+    <div class="signupform" *ngIf="!showLogin">
+        <h2>Seller Sign-up</h2>
+        <form #sellerSignup="ngForm" (ngSubmit)="signUp(sellerSignup.value)" class="sellerSignupform">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" ngModel placeholder="Enter Name" name="name">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" ngModel placeholder="Enter Email" name="email">
+              </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="pwd" ngModel placeholder="Enter password" name="password">
+            </div>
+            <div class="last-section">
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+              <p>Already have account?<a class="text-primary" (click)="openLogin()"> Click to Login</a></p>
+            </div>
+          </form>
+    </div>
+
+  <!-- Login Section-->
+  <div class="signupform" *ngIf="showLogin">
+    <h2>Seller Login</h2>
+    <p class="text-danger">{{authError}}</p>
+    <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="sellerLoginform">
+        
+        <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control"  ngModel placeholder="Enter Email" name="email">
+          </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control"  ngModel placeholder="Enter password" name="password">
+        </div>
+        <div class="last-section">
+          <button type="submit" class="btn btn-primary">Login</button>
+          <p>Don't have Account?<a class="text-primary" (click)="openSignup()"> Click to Sign-up</a></p>
+        </div>
+        
+      </form>
+</div>
+</div> 
