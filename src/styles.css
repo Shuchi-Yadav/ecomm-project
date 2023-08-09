@@ -1,3 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body{ margin: 0;padding: 0;background-color: #fff;font-family: 'Lato', sans-serif!important;}
 a{text-decoration: none!important; cursor: pointer;}
+.carousel-control-next-icon, .carousel-control-prev-icon{border: 10px; background-color: #000!important;}
+.carousel-caption{bottom: 0px!important;background-color:darkgrey;}
+.carousel-caption h3{font-size: 1.1rem!important;}
+.carousel-caption p{text-align: center;text-overflow: ellipsis;width: 100%;overflow: hidden;}
+ul{list-style: none;margin: 0px!important;padding: 0px!important;}
+*{margin: 0;padding: 0;}
+.mt-20{margin-top: 20px!important;}

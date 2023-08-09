@@ -1,1 +1,57 @@
-<h1>home works!</h1>
+<div class="product-slider">
+	<ngb-carousel *ngIf="popularProducts">
+		<ng-template *ngFor="let item of popularProducts" ngbSlide>
+			<div class="picsum-img-wrapper">
+				<a routerLink="/details/{{item.id}}">
+					<img src={{item.image}} alt="Random first slide" />
+				</a>
+			</div>
+			<div class="carousel-caption">
+				<h3>
+					<a routerLink="/details/{{item.id}}">
+						{{item.name}}
+					</a>
+				</h3>
+				<p>
+					{{item.description}}
+				</p>
+			</div>
+		</ng-template>
+	</ngb-carousel>
+	<div class="trendy-product-list">
+		<h2 class="text-center">Trendy Products</h2>
+		<div class="row mb-5">
+			<div class="col-sm-3" *ngFor="let items of trendyProducts">
+				<div class="card h-100">
+					<div class="card-img-wrapper">
+						<a routerLink="/details/{{items.id}}">
+							<img class="card-img-top" src="{{items.image}}">
+						</a>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">
+							<a routerLink="/details/{{items.id}}">
+								{{items.name}}
+							</a>
+						</h5>
+						<p class="card-text">
+							{{items.description}}
+						</p>
+						<div class="product-detail">
+							<span>Price - {{items.price}}</span>
+							<span>Color - {{items.color}}</span>
+							
+						</div>
+						
+					</div>
+					
+					<div class="card-footer text-muted">
+						<a routerLink="/details/{{items.id}}" class="card-link">View Details</a>
+    					<a href="#" class="card-link float-right">Add to Cart</a>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+</div>

@@ -4,8 +4,15 @@
     </div>
      <div class="serach-section" *ngIf="menuType==='default'">
         <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-light" type="submit">Search</button>
+          <div class="header-search">
+            <input #searchInput class="form-control me-2" type="search" (blur)="hideSearch()" placeholder="Search Products" aria-label="Search" (keyup)="searchProducts($event)">
+            <button class="btn btn-light" type="submit" (click)="submitSearch(searchInput.value)">Search</button>
+          </div>
+           <ul class="suggested-result" *ngIf="searchProduct">
+                <li *ngFor="let items of searchProduct">
+                  <a (mousedown)="redirectToDetails(items.id)">{{items.name}}</a>
+                </li> 
+            </ul>
         </form>
     </div>
     <div class="menu-section" [ngSwitch]="menuType">
@@ -19,10 +26,10 @@
                     <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" routerLink="seller">Seller</a>
+                    <a class="nav-link" routerLink="/seller-auth">Seller</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" routerLink="/user-auth">Login/Sign-up</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Cart(0)</a>

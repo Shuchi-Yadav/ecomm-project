@@ -1,7 +1,10 @@
 .header-wrapper{display: flex; justify-content: space-between;height: 55px;}
 .container-fluid{margin: 0px!important;padding-left: 0px!important;}
-.serach-section{width: 50%;margin-top: 9px;}
+.serach-section{width: 50%;margin-top: 9px;position: relative;}
 .header-link{padding-left: 10px;padding-top: 10px;}
 .header-link a{font-size: 1.5rem;}
 a{text-decoration: none;}
 .header-wrapper .navbar-nav .nav-link{color: #fff!important;}
+.header-search{display:flex;width: 100%;}
+.suggested-result{position: absolute;display: list-item;top: 46px;left: 0;z-index: 10; background: #fff;padding: 0px 15px!important;}
+.suggested-result li{padding: 10px 0;border-bottom: 1px solid #ccc;}

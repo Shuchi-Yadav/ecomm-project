@@ -63,7 +63,7 @@
   "products": [
     {
       "name": "Kiddie Castle Portable 8.5 inch LCD Re-Writing Paperless Electronic Digital Notepad Board  (Black)",
-      "price": 173,
+      "price": "173",
       "color": "black",
       "category": "Baby Toys",
       "description": "Sales Package 1 Toy LCD Tab",
@@ -75,7 +75,7 @@
       "price": "100",
       "color": "Green",
       "category": "Baby Toys",
-      "description": "\nSoft and Cuddly filling, Huggable and loveable for someone special, Teach your loved one the act of hugging with the help of these teddies. Super soft plush materials for huggable loveable joy and keeps kids playful for long hours. Gift this soft, smooth and cuddly teddy as a great gift to your loved one. Great for all kids (and adults) who love to hold, hug, cuddle and treasure. Made out of non-toxic polyester and fur fabrics of good quality. Excellent Poly-staple & conjugate filling fiber used Gift this soft, smooth and cuddly teddy as a great gift to your loved one. Great for all kids (and adults) who love to hold, hug, cuddle and treasure Made out of non-toxic polyester and fur fabrics of good quality.",
+      "description": "Soft and Cuddly filling, Huggable and loveable for someone special, Teach your loved one the act of hugging with the help of these teddies. ",
       "image": "https://rukminim2.flixcart.com/image/416/416/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg?q=70",
       "id": 2
     },
@@ -96,6 +96,51 @@
       "description": "Blade Material: Stainless Steel",
       "image": "https://rukminim2.flixcart.com/image/416/416/kuof5ow0/trimmer/7/z/f/0-5-10-mm-bt3101-15-stainless-steel-cordless-philips-original-imag7r4r7ztgnuyk.jpeg?q=70",
       "id": 6
+    },
+    {
+      "name": "Primebook 4G Android Based MediaTek MT8788",
+      "price": "13,990",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "4 GB/64 GB EMMC Storage/Prime OS",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/i/j/k/-original-imagzzsh3afavghf.jpeg?q=70",
+      "id": 7
+    },
+    {
+      "name": "Infinix Y1 Plus Neo (2023) Celeron Quad Core 11th Gen",
+      "price": "20,990",
+      "color": "Silver",
+      "category": "laptop",
+      "description": "4 GB/128 GB SSD/Windows 11 Home. XL30 Thin and Light Laptop",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/3/s/f/xl30-thin-and-light-laptop-infinix-original-imagzmncc2gxnz2n.jpeg?q=70",
+      "id": 8
+    },
+    {
+      "name": "Men Skinny Mid Rise Grey Jeans",
+      "price": "1,040",
+      "color": "Grey",
+      "category": "Mens Jeans",
+      "description": "Mid Rise Grey Jeans",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/u/r/y/36-bhdi2038-being-human-original-imagjyktx47ghymy.jpeg?q=70",
+      "id": 9
+    },
+    {
+      "name": "Canon EOS M50 Mark",
+      "price": "59,990",
+      "color": "Black",
+      "category": "Electronics",
+      "description": "1 Camera, Camera Strap, Charger, Battery, Charging Cable",
+      "image": "https://rukminim2.flixcart.com/image/416/416/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70",
+      "id": 10
+    },
+    {
+      "name": "Egate O9 Pro \"ZEN\" Automatic Dual OS",
+      "price": "27,990",
+      "color": "Black",
+      "category": "Electronics",
+      "description": "Android + FTS (Ceritied Apps), Fully Automatic (9600 lm) Projector",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/projector/b/q/k/o9-pro-zen-automatic-dual-os-android-fts-ceritied-apps-fully-original-imagrptvyqqeysrj.jpeg?q=70",
+      "id": 11
     }
   ]
 }

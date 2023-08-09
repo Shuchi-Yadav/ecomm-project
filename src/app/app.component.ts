@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { SellerAuthService } from './services/seller-auth.service';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +7,4 @@ import { SellerAuthService } from './services/seller-auth.service';
 })
 export class AppComponent {
   title = 'ecomm-project';
-
 }
